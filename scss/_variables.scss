@@ -1,0 +1,74 @@
+:root {
+    --header-height: 3rem;
+
+    /* Colors */
+    --hue-color: 169;
+    --first-color: hsl(var(--hue-color), 26%, 75%);
+    --first-color-second: hsl(166, 30%, 56%);
+    --first-color-alt: hsl(167, 43%, 64%);
+    --first-color-lighter: hsl(167, 13%, 43%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --container-color: #fff;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+    /* Font & typography */
+    --body-font: "Poppins", sans-serif;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+
+    /* Font weight */
+    --font-lighter: 200;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* Margins Bottom */
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    /* z index */
+    --z-tooltip: 99;
+    --z-fixed: 999;
+    --z-modal: 9999;
+}
+
+/* Font size (large devices) */
+@media screen and (min-width: 968px) {
+    :root {
+        --big-font-size: 3rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: 0.813rem;
+    }
+}
+
+/* Dark mode */
+body.dark-theme {
+    --first-color-second: hsl(167, 24%, 42%);
+    --first-color-lighter: hsl(210, 11%, 25%);
+    --title-color: hsl(var(--hue-color), 8%, 95%);
+    --text-color: hsl(var(--hue-color), 8%, 75%);
+    --input-color: hsl(167, 25%, 39%);
+    --body-color: hsl(210, 11%, 25%);
+    --container-color: hsl(var(--hue-color), 29%, 16%);
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+}
