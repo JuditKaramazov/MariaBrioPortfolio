@@ -402,9 +402,15 @@ img {
         }
     }
 
-    .skills-open .skills-list {
-        height: max-content;
-        margin-bottom: var(--mb-2-5);
+    .skills-open {
+        .skills-list {
+            height: max-content;
+            margin-bottom: var(--mb-2-5);
+        }
+
+        .skills-arrow {
+            transform: rotate(-180deg);
+        }
     }
 
     .skills-close .skills-list {

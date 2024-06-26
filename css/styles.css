@@ -409,6 +409,9 @@ img {
   height: max-content;
   margin-bottom: var(--mb-2-5);
 }
+.skills-container .skills-open .skills-arrow {
+  transform: rotate(-180deg);
+}
 .skills-container .skills-close .skills-list {
   height: 0;
   overflow: hidden;
