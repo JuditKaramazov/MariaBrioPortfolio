@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://mariabrio.vercel.app">
-    <img src="/assets/favicon/android-chrome-192x192.png" width="70" alt="Portfolio's favicon.">
+    <img src="/public/favicon/android-chrome-192x192.png" width="70" alt="Portfolio's favicon.">
   </a>
 </p>
 <p align="center">
@@ -63,7 +63,7 @@ Some months ago, during quite a casual conversation with a senior programmer who
 
 Certificates. Trainings. Degrees. We have a huge vested interest in them, partly because it's education that's meant to take us into this future that we can't grasp. I am not denying the inherent truth of it, though; a solid education is a pretty easy thing to carry around, yet our approach to education requires a deep reform. Similarly, the lack of educational and professional opportunities should be discussed and addressed, but that's a story for another night. Today, we'll focus on the importance of portfolios, which may significantly define our success while trying to find an opportunity.
 
-![Maria's portfolio.](/assets/screenshots/MariaBrioPortfolio-01.png)
+![Maria's portfolio.](/public/screenshots/MariaBrioPortfolio-01.png)
 
 After admiring the above image, I would _definitely_ hire such a professional, for instance - no matter the barriers to job success we all face.
 
@@ -75,7 +75,7 @@ Some of you are _naturals_ here; don't dare try to fool me. Now, can you guess w
 
 | Section                                                  | Description                                                                                                                                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **About**                               | ℹ️ _Who is this person we have in front of us?_ As it's simply essential these days, the first sections translate into a **brief introduction** displaying a profile picture, some crucial information, and different contact and professional platforms: from her [LinkedIn](https://www.linkedin.com/in/mariabrioperez/) to her [Orcid](https://orcid.org/0000-0002-6328-9556) account, a site connecting research and researchers. You can even access her [doctoral thesis](https://research.utwente.nl/en/publications/a-journey-towards-responsive-and-circular-polymer-brushes-design-) or [download her CV](/assets/MariaBrioPerez-CV.pdf) from there!                                                                                                                                                                                              |
+| **About**                               | ℹ️ _Who is this person we have in front of us?_ As it's simply essential these days, the first sections translate into a **brief introduction** displaying a profile picture, some crucial information, and different contact and professional platforms: from her [LinkedIn](https://www.linkedin.com/in/mariabrioperez/) to her [Orcid](https://orcid.org/0000-0002-6328-9556) account, a site connecting research and researchers. You can even access her [doctoral thesis](https://research.utwente.nl/en/publications/a-journey-towards-responsive-and-circular-polymer-brushes-design-) or [download her CV](/public/MariaBrioPerez-CV.pdf) from there!                                                                                                                                                                                              |
 | **Skills**      | 🛠️ **Technical expertise**, **project management**, **software**, **languages**... you name it! Everything has been organized under the shape of an **accordion** in order to make information as accessible as readable.                                                                                                                          |
 | **Experience**                             | 💼 Education? Work? Here, you'll find **both options**, with the proper experience displayed as a visual timeline. You have no excuse now, recruiters!                                                                                     |
 | **Articles**                             | 📑 Undoubtedly, articles are an essential part of the doctoral process. Although Maria already _nailed_ her oral defense (_believe me: I watched it, and it was impeccable_), she also published **several research articles**, just like the ones you can find in [Orcid](https://orcid.org/0000-0002-6328-9556). Here, we're only displaying the most recent ones, but it seemed a great idea to integrate them as visually and interactively as possible.                                                                                    |
@@ -93,14 +93,14 @@ Those, however, were extremely simple yet not functional at all. Beautiful? Yes.
 
 Just as it's mandatory these days, I incorporated a **theme switcher** to enhance the visual appeal for readers and nocturnal creatures of the interwebz, which will hopefully allow users to personalize their viewing experience based on their preferences.
 
-![Dark mode.](/assets/screenshots/MariaBrioPortfolio-02.png)
+![Dark mode.](/public/screenshots/MariaBrioPortfolio-02.png)
 
 ## 📬 EmailJS
 
 What makes [EmailJS](https://www.emailjs.com/) great is the fact that it keeps things simple. This beautiful tool helps to send emails using client-side technologies only. No server is required – just connect EmailJS to one of the supported email services, create an email template, and use one of their SDK libraries to trigger an email. Boom! That's it!
 
 
-![EmailJS integration.](/assets/screenshots/MariaBrioPortfolio-03.png)
+![EmailJS integration.](/public/screenshots/MariaBrioPortfolio-03.png)
 
 In case you are curious about the implementation itself, don't hesitate to inspect the [main.js file](/js/main.js):
 
@@ -134,7 +134,7 @@ Truth said, one of the factors allowing me to realize that I'm indeed _evolving 
 
 In this case, the idea I had in mind was simple: a clean, minimalist, compact portfolio allowing users to get a clear insight into who Maria _is_ as a professional. That's why, independently of my toxic relationship with React, NextJS, or Astro, I chose my best warriors: the tools that started it all. My coding roots, so to speak.
 
-![Single page portfolio.](/assets/screenshots/MariaBrioPortfolio-04.png)
+![Single page portfolio.](/public/screenshots/MariaBrioPortfolio-04.png)
 
 ## 🖼️ Swiper
 
@@ -142,7 +142,7 @@ Swiper is considered one of the most modern free and open-source mobile touch sl
 
 In this case, I found it to be an extremely useful tool to display some of Maria's most recent works instead of listing them:
 
-![Swiper integration.](/assets/screenshots/MariaBrioPortfolio-05.png)
+![Swiper integration.](/public/screenshots/MariaBrioPortfolio-05.png)
 
 > [!NOTE]
 > If you don't want to include Swiper files in your project, remember that you may use it from CDN instead. For more information, here's the link to [Swiper's docs](https://swiperjs.com/get-started).
