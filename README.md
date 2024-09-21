@@ -180,7 +180,7 @@ For the past, present, and future moments, `thank you`. You are an extremely bea
 
 # 🏛 License & Copyright
 
-God save our [MIT License](LICENSE.txt) and its infinite benevolence! It burns! That said, and only if you the beautiful portfolio you found here, remember that you can make the Dinosaur of the Depths extremely happy if you...
+God save our [MIT License](LICENSE.txt) and its infinite benevolence! It burns! That said, and only if you enjoyed the beautiful portfolio you found here, remember that you can make the Dinosaur of the Depths extremely happy if you...
 <br />
 
 ---
